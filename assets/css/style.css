@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url(//db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTCBodoni175W01-Regular); */
+
+@font-face {
+    font-family: "sofia Pro";
+    src: url("/assets/fonts/SofiaProLight.otf");
+}
+
+.sofiaPara {
+    font-family: "sofia Pro";
+    line-height: 30px;
+    font-size: 15px;
+}
+
+* {
+    font-family: 'Bebas neue', sans-serif, serif;
+    box-sizing: border-box;
+
+}
+
+#indexPage{
+    font-family: 'Bebas neue';
+    background: url(/assets/images/nav.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    z-index: 15;
+}
+
+.fab {
+    color: white;
+    padding: 6px;
+}
+
+.socialIcons {
+    width: fit-content;
+
+}
+
+.navbar-brand {
+    font-size: 60px;
+}
+
+.nav-link {
+    font-size: 23px;
+
+}
+
+.middleUl {
+    margin-right: 3%;
+}
+
+.mainDiv {
+    margin-top: 160px;
+}
+
+a:visited {
+    font-weight: bold;
+}
+
+#contactHeader {
+    font-size: 50px;
+}
+
+#contactMargin {
+    margin-top: 40px;
+}
+
+.socialIcons:hover :not(:hover) {
+    opacity: .7;
+    transition-delay: 1s;
+    transition: ease .6s;
+}
+
+.aboutBtn{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-family: "sofia pro";
+
+}
+
+.aboutBtn:hover{
+    opacity: .7;
+}
+
+.card-title, .card-text{
+    font-family: "sofia pro";
+    color: black;
+}
+.card-title{
+    text-transform: capitalize;
+}
+
+
+.date{
+    font-size: 14px;
+    width: fit-content;
+}
+a:hover{
+    text-decoration: none;
+}
+.big-text{
+    font-size: 35px;
+}
+.xl-text{
+    font-size: 50px;
+}
+.blog-social-media{
+    opacity: .6;
+    
+}
+.nav-item{
+    padding: 6px;
+}
+
+.blog-title{
+  
+    line-height: 57px;
+   
+}
+
+
+.blog-links{
+    font-family: "sofia pro";
+    text-transform: none;
+    color: black;
+    font-weight: bolder;
+
+}
+.blog-links:hover{
+    text-decoration: underline;
+    color: red;
+}
+.text-24px{
+    font-family: "sofia pro";
+    font-size: 24px;
+}
